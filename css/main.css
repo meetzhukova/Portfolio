@@ -67,7 +67,7 @@ body {
 
 #logo {
     font-stretch: expanded;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 24px;
     padding: 0px;
     margin: 0px;
@@ -84,8 +84,8 @@ body {
 }
 
 #nav a:hover {
-    font-weight: 500;
-    transition: 0.1s ease;
+    text-decoration: underline 1px;
+    text-underline-offset: 4px;
 }
 
 /* Home Section */
@@ -130,7 +130,8 @@ body {
     font-size: 24px;
     font-weight: 300;
 
-    padding-bottom: 50px;
+    margin: 0px;
+    padding-bottom: 80px;
 }
 
 #main a {
@@ -147,4 +148,85 @@ body {
     font-weight: 400;
     font-size: 20px;
     text-decoration: none;
+}
+
+#mainArrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+/* Arrow + Floating Animation */
+
+#mainArrow img {
+    width: 50px;
+    height: 35px;
+
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    opacity: 0.4;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 0.4;
+    transform: translateY(0);
+  }
+}
+
+
+/* About Section */
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    scroll-margin-top: 180px;
+}
+
+#about h2 {
+    margin-top: 0px;
+    font-size: 60px;
+    font-stretch: expanded;
+    font-weight: 400;
+}
+
+#about img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.photo1 {
+    width: 404px;
+    height: 484px;
+    position: absolute;
+    z-index: 2;
+    transition: z-index 0.3s ease, transform 0.3s ease;
+}
+
+.photo2 {
+    width: 380px;
+    height: 489px;
+    position: relative;
+
+    right: 78px;
+    bottom: 35px;
+    transition: z-index 0.3s ease, transform 0.3s ease;
+}
+
+#about > div:has(.photo2:hover) .photo1 {
+    transform: scale(0.95) translateY(10px);
+    z-index: 1;
+}
+
+.photo2:hover {
+    z-index: 3;
+    transform: scale(1.05) translateY(-10px);
 }

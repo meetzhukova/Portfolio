@@ -1,6 +1,5 @@
 /* 
-    Для H1 заголовков и других заголовков типа Expanded прописывать:
-        font-stretch: expanded;
+    font-stretch: expanded;
 */
 
 /* 
@@ -89,7 +88,8 @@ body {
 }
 
 #nav a.active {
-    font-weight: 600;
+    font-weight: 400;
+    text-shadow: white 0px 0px 10px;
 }
 
 /* Home Section */
@@ -234,3 +234,208 @@ body {
     z-index: 3;
     transform: scale(1.05) translateY(-10px);
 }
+
+/* Projects Section */
+
+#projects {
+    margin-top: 100px;
+    scroll-margin-top: 120px;
+}
+
+#projects h2 {
+    margin-top: 0px;
+    font-size: 60px;
+    font-stretch: expanded;
+    font-weight: 400;
+}
+
+/* Project 1 */
+
+#containerProj1 {
+    width: 1240px;
+    height: 573px;
+    border: rgba(255, 255, 255, 0.3) 1.5px solid;
+    
+    display: flex;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#proj1-img {
+    background-image: url(../assets/img/proj1.png);
+    width: 1180px;
+    height: 513px;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+
+#buttons1 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#buttons1 p {
+    display: inline-block;
+    padding: 10px 30px;
+    border: white 1px solid;
+
+    font-size: 14px;
+    font-stretch: expanded;
+    font-weight: 400;
+    margin: 0px 0px 0px 0px;
+}
+
+#proj1 a {
+    text-decoration: none;
+    color: black;
+    background: white;
+
+    font-size: 18px;
+    font-stretch: expanded;
+    font-weight: 400;
+
+    position: absolute;
+    padding: 16px 36px;
+    margin-top: -140px;
+    margin-left: 50px;
+}
+
+#proj1 a:hover {
+    box-shadow: rgba(255, 255, 255, 0.77) 0px 0px 10px;
+}
+
+/* Project 2 */
+
+#containerProj2 {
+    width: 1240px;
+    height: 573px;
+    border: rgba(255, 255, 255, 0.3) 1.5px solid;
+    
+    display: flex;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#proj2-img {
+    background-image: url(../assets/img/proj2.png);
+    width: 1180px;
+    height: 513px;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+
+#buttons2 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#buttons2 p {
+    display: inline-block;
+    padding: 10px 30px;
+    border: white 1px solid;
+
+    font-size: 14px;
+    font-stretch: expanded;
+    font-weight: 400;
+    margin: 0px 0px 0px 0px;
+}
+
+#proj2 a {
+    text-decoration: none;
+    color: black;
+    background: white;
+
+    font-size: 18px;
+    font-stretch: expanded;
+    font-weight: 400;
+
+    position: absolute;
+    padding: 16px 36px;
+    margin-top: -140px;
+    margin-left: 50px;
+}
+
+#proj2 a:hover {
+    box-shadow: rgba(255, 255, 255, 0.77) 0px 0px 10px;
+}
+
+/* Project 3 */
+
+#containerProj3 {
+    width: 1240px;
+    height: 573px;
+    border: rgba(255, 255, 255, 0.3) 1.5px solid;
+    
+    display: flex;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#proj3-img {
+    background-image: url(../assets/img/proj3.png);
+    width: 1180px;
+    height: 513px;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+
+#buttons3 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#buttons3 p {
+    display: inline-block;
+    padding: 10px 30px;
+    border: white 1px solid;
+
+    font-size: 14px;
+    font-stretch: expanded;
+    font-weight: 400;
+    margin: 0px 0px 0px 0px;
+}
+
+#proj3 a {
+    text-decoration: none;
+    color: black;
+    background: white;
+
+    font-size: 18px;
+    font-stretch: expanded;
+    font-weight: 400;
+
+    position: absolute;
+    padding: 16px 36px;
+    margin-top: -140px;
+    margin-left: 50px;
+}
+
+#proj3 a:hover {
+    box-shadow: rgba(255, 255, 255, 0.77) 0px 0px 10px;
+}
+
+

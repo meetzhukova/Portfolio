@@ -265,6 +265,11 @@ body {
     margin-bottom: 40px;
 }
 
+#containerProj1:hover {
+    box-shadow: rgba(255, 255, 255, 0.112) 0px 0px 75px;
+    transition: box-shadow 0.3s ease;
+}
+
 #proj1-img {
     background-image: url(../assets/img/proj1.png);
     width: 1180px;
@@ -328,6 +333,11 @@ body {
     margin-bottom: 40px;
 }
 
+#containerProj2:hover {
+    box-shadow: rgba(255, 255, 255, 0.112) 0px 0px 75px;
+    transition: box-shadow 0.3s ease;
+}
+
 #proj2-img {
     background-image: url(../assets/img/proj2.png);
     width: 1180px;
@@ -389,6 +399,11 @@ body {
     display: flex;
     position: relative;
     margin-bottom: 40px;
+}
+
+#containerProj3:hover {
+    box-shadow: rgba(255, 255, 255, 0.112) 0px 0px 75px;
+    transition: box-shadow 0.3s ease;
 }
 
 #proj3-img {
